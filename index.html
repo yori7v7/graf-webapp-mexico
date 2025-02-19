@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bandera de México</title>
+  <!-- Vinculamos la hoja de estilo -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Bandera de México</h1>
+
+  <div class="contenedor-bandera">
+    
+    <!-- Sección Verde -->
+    <div class="seccion">
+      <div class="fila-superior">
+        <label for="brillo-verde" class="etiqueta">Esperanza</label>
+        <input
+          type="range"
+          id="brillo-verde"
+          min="0"
+          max="100"
+          value="100"
+          class="control-brillo"
+        />
+        <span class="hex-code" id="hex-verde">#FF00</span>
+      </div>
+      <div id="caja-verde" class="caja-color"></div>
+    </div>
+
+    <!-- Sección Blanca (Unidad) -->
+    <div class="seccion">
+      <div class="fila-superior">
+        <span class="etiqueta">Unidad</span>
+        <span class="hex-code">#FFFFFF</span>
+      </div>
+      <div id="caja-blanca" class="caja-color">
+        <!-- Simulación del águila con arrobas -->
+        <div class="simbolo">
+          @@@@<br />
+          @@@@<br />
+          @@@@
+        </div>
+      </div>
+    </div>
+
+    <!-- Sección Roja -->
+    <div class="seccion">
+      <div class="fila-superior">
+        <label for="brillo-rojo" class="etiqueta">Sangre de nuestros héroes nacionales</label>
+        <input
+          type="range"
+          id="brillo-rojo"
+          min="0"
+          max="100"
+          value="100"
+          class="control-brillo"
+        />
+        <span class="hex-code" id="hex-rojo">#FF0000</span>
+      </div>
+      <div id="caja-rojo" class="caja-color"></div>
+    </div>
+
+  </div>
+
+  <!-- Nombre debajo de la bandera -->
+  <h2>Diego Yorel Castelán Silva 22200717</h2>
+
+  <!-- Vinculamos el script -->
+  <script src="script.js"></script>
+</body>
+</html>

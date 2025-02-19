@@ -1,0 +1,103 @@
+/* Estilo general del cuerpo */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/* Título principal */
+h1 {
+  margin: 20px 0;
+  font-size: 2.5em; /* Tamaño más grande */
+  font-weight: bold;
+}
+
+/* Contenedor principal de la bandera */
+.contenedor-bandera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 800px; /* Más ancho para que se vea mejor */
+  gap: 0px; /* Sin separación entre las franjas */
+}
+
+/* Cada sección (columna) */
+.seccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 260px; /* Más ancho para mayor espacio */
+}
+
+/* Fila superior con etiquetas y controles */
+.fila-superior {
+  display: flex;
+  flex-direction: column; /* Alinear en columna para evitar sobreposición */
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Etiquetas */
+.etiqueta {
+  font-weight: bold;
+  font-size: 1.2em; /* Texto más grande */
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* Slider */
+.control-brillo {
+  cursor: pointer;
+  width: 80%; /* Para que no sea tan largo */
+}
+
+/* Texto del código Hex */
+.hex-code {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+/* Recuadros de color */
+.caja-color {
+  width: 260px; /* Más ancho */
+  height: 400px; /* Más alto para parecerse más a la bandera real */
+  border: none;
+}
+
+/* Recuadro verde */
+#caja-verde {
+  background-color: #00ff00;
+}
+
+/* Recuadro blanco */
+#caja-blanca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+/* Águila de arrobas centrada */
+.simbolo {
+  font-size: 2em; /* Más grande para mejor visibilidad */
+  line-height: 1.5;
+  color: #000;
+  text-align: center;
+}
+
+/* Recuadro rojo */
+#caja-rojo {
+  background-color: #ff0000;
+}
+
+/* Nombre debajo de la bandera */
+h2 {
+  margin-top: 30px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
